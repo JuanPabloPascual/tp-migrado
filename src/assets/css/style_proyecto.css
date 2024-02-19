@@ -1,0 +1,143 @@
+body{
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+.overlay-button {
+    position: absolute;
+    top: 50%;        /* Centrar verticalmente */
+    left: 50%;       /* Centrar horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste final para centrar */
+    z-index: 1;      /* Asegura que el botón esté por encima del logo */
+    background-color: rgba(255, 255, 255, 0.7); /* O cualquier otro color de fondo que prefieras */
+    border: none;    /* O cualquier estilo de borde que prefieras */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+ /* ------------- Navbar -----------*/
+ 
+.container-fluid{
+    background-color: pink;
+    
+}
+
+.navbar-toggler {
+    box-shadow: none;
+}
+
+.navbar{
+    font-size: 25px;
+    color:rgb(2, 2, 2);
+    border-bottom: 2px;
+    padding: 0%;
+}
+
+.navbar-nav{
+    text-align: center;
+    display: flex;
+    justify-content: space-between; 
+    gap: 150px
+}
+
+.navbar-brand{
+     color: rgb(8, 8, 8);
+     font-weight: bold;
+     font-size: 24px;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+}
+
+
+/* ------------- Carrusel ----------------*/
+.carousel-inner{
+    background-color: pink;
+}
+.carousel-item img {
+    max-width:  20%;  /* Esto limita el ancho máximo de las imágenes al 60% del contenedor del carrusel */
+    margin: auto;   /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que la imagen sea un bloque */
+}
+
+.carousel-control-next-icon  {
+    color: pink;
+   
+}
+.carousel-control-prev-icon {
+    color: pink;
+}
+
+
+ /* ------------- Cards -----------*/
+
+ .container{
+   margin-top: 50px;
+ }
+ .card{
+    text-align: justify;
+     }
+
+ /* ------------- Formulario  -----------*/
+
+.formulario  {
+    display: flex;
+    justify-content: space-between; 
+    gap: 0px;
+    text-align: center;
+    background-color: pink;
+    margin: 50px 150px 5px 150px
+}
+
+/* ------------- Footer  ----------*/
+
+footer {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+
+.redes_sociales{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.redes_sociales i {
+    margin: 5px 10px;
+    color: black
+}
+.fa-facebook{
+    color: black;
+}
+
+/* ------------- Footer  ----------*/
+
+/* -------------Logo ----------*/
+
+img.logo{
+    max-width: 500%;
+    height: auto;
+    }
+
+ /* -------------Logo -----------*/
+
+ 
+ /*--------Botones---------------*/
+
+ .btn {
+        background-color: #592E0B; 
+        color: white; 
+        padding: 10px 20px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        margin: 10px;
+        cursor: pointer; 
+        border: none;
+        border-radius: 5px; 
+        box-shadow: 4px 4px 5px #888888 
+    }
+    
+ /*--------Botones---------------*/    
